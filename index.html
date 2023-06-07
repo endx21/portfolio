@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Encode+Sans+Semi+Condensed:wght@100;300;400;600;800&family=Oswald&family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <!--Icons-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"/>
+    <script src="https://kit.fontawesome.com/c0fdd256fb.js" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" href="icons/iconE.png">
+    <!--STYLE-->
+    <link rel="stylesheet" href="style.css">
+    <title>Endryx's portfolio</title>
+</head>
+<body>
+    <section class="header-container">
+        <header>
+            <div class="logo">
+                <a href="#">Endryx Herrera</a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#start" onclick="select()">START</a></li>
+                    <li><a href="#about" onclick="select()">ABOUT</a></li>
+                    <li><a href="#skills" onclick="select()">SKILLS</a></li>
+                    <li><a href="#work" onclick="select()">WORK</a></li>
+                    <!--<li><a href="#contact" onclick="select()">CONTACT</a></li>-->
+                </ul>
+            </nav>
+            <div class="responsive-nav" onclick="showAndHideMenu()">
+                <span class="material-symbols-outlined">menu</span>
+            </div>
+        </header>
+    </section>
+    <!--start-->
+    <section id="start" class="start">
+        <div class="banner-content">
+            <div class="img-container">
+                <img src="/img/profile.png" alt="">
+            </div>
+            <h1>ENDRYX HERRERA</h1>
+            <h2>Software Developer</h2>
+            <div class="social">
+                <a href="https://twitter.com/endryxscorpion1" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-twitter"></i></a>
+                <a href="https://www.instagram.com/endx21/" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/endryx-herrera-780928269/" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://github.com/endx21" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-github"></i></a>
+            </div>
+        </div>
+    </section>
+    <!-- ABOUT -->
+    <section id="about" class="about">
+        <div class="about-content">
+            <h2>About</h2>
+            <p><span>Hi, I'm Endryx Herrera.</span> I'm a young developer graduated in the area of computer science, learning and improving myself more every day, currently I'm dedicated to the frontend area but I hope to expand my knowledge in the future. If you are interested in my work you can contact me through this medium or on my social networks</p>
+
+            <div class="row">
+                <!-- PERSONAL DATA -->
+                <div class="col">
+                    <h3>Personal Data</h3>
+                    <ul>
+                        <li>
+                            <strong>Address</strong>
+                            Maracaibo, Zulia, Venezuela
+                        </li>
+                        <li>
+                            <strong>Phone number</strong>
+                            +58 412-3562221
+                        </li>
+                        <li>
+                            <strong>Email address</strong>
+                            endryxh2@gmail.com
+                        </li>
+                        <li>
+                            <strong>Current Job</strong>
+                            <span>FREELANCE</span>
+                        </li>
+                    </ul>
+                </div>
+                <!-- INTERESTS -->
+                <div class="col">
+                    <h3>Interests</h3>
+                    <div class="interests-container">
+                        <div class="interests">
+                            <i class="fa-solid fa-gamepad"></i>
+                            <span>VIDEOGAMES</span>
+                        </div>
+                        <div class="interests">
+                            <i class="fa-solid fa-music"></i>
+                            <span>MUSIC</span>
+                        </div>
+                        <div class="interests">
+                            <i class="fa-solid fa-film"></i>
+                            <span>MOVIES</span>
+                        </div>
+                        <div class="interests">
+                            <i class="fa-solid fa-computer"></i>
+                            <span>COMPUTERS</span>
+                        </div>
+                        <div class="interests">
+                            <i class="fa-solid fa-globe"></i>
+                            <span>INTERNET</span>
+                        </div>
+                        <div class="interests">
+                            <i class="fa-solid fa-plane"></i>
+                            <span>TRAVEL</span>
+                        </div>
+                        <div class="interests">
+                            <i class="fa-solid fa-bed"></i>
+                            <span>SLEEP</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button>
+                <a href="docs/ResumeEndryxHerrera.pdf" download="ResumeEndryxHerrera.pdf">
+                    Download CV
+                <i class="fa-solid fa-download"></i>
+                <span class="overlay"></span>
+                </a>
+            </button>
+            <button>
+                <a href="https://drive.google.com/file/d/1BUFkHJ4f10t0HUxsJARQ62r37G6_U45X/view" target="_blank" rel="noopener noreferrer">
+                    View CV
+                <i class="fa-solid fa-eye"></i>
+                <span class="overlay"></span>
+                </a>
+            </button>
+        </div>
+    </section>
+    <!-- SKILSS -->
+    <section id="skills" class="skills">
+        <div class="skills-content">
+            <h2>Skills</h2>
+            <div class="row">
+                <!-- TECHNICAL SKILLS -->
+                <div class="col">
+                    <h3>Technical Skills</h3>
+                    <div class="skills-container">
+                    <div class="skills-card">
+                        <img src="icons/HTML5.svg" alt="">
+                        <span>HTML</span>
+                    </div>
+                    <div class="skills-card">
+                        <img src="icons/CSS.png" alt="">
+                        <span>CSS</span>
+                    </div>
+                    <div class="skills-card">
+                        <img src="icons/JavaScript-logo.png" alt="">
+                        <span>JavaScript</span>
+                    </div>
+                    <div class="skills-card">
+                        <img src="icons/typescript.png" alt="">
+                        <span>TypeScript</span>
+                    </div>
+                    <div class="skills-card">
+                        <img src="icons/React-icon.png" alt="">
+                        <span>React</span>
+                    </div>
+                    <div class="skills-card">
+                        <img src="icons/next-js.svg" alt="">
+                        <span>Next.js</span>
+                    </div>
+                </div>
+
+                </div>
+                <!-- PROFESSIONAL SKILLS -->
+                <div class="col">
+                    <h3>Professional Skills</h3>
+                    <ul  class="skill">
+                        <li>Communication</li>
+                        <li>Teamwork</li>
+                        <li>Creativity</li>
+                        <li>Dedication</li>
+                        <li>Proyect Management</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col">
+                <h3>Languages</h3>
+                <div class="languages-container">
+                <div class="languages-card">
+                    <img src="icons/venezuela-flag.svg" alt="">
+                    <span>Spanish (Native)</span>
+                </div>
+                <div class="languages-card">
+                    <img src="icons/united-states-flag.png" alt="">
+                    <span>English (Intermediate)</span>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+        <!-- WORK -->
+        <section id="work" class="work">
+            <div class="work-content">
+                <h2>Work</h2>
+                <div class="gallery">
+                    <div class="proyect">
+                        <a href="https://endx21.github.io/google-clone/" target="_blank" rel="noopener noreferrer">
+                            <img src="img/google.PNG" alt="">
+                            <div class="overlay">
+                                <h3>Google Clone</h3>
+                                <p>Site that simulates the appearance of the main page of google</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="proyect">
+                        <a href="https://endx21.github.io/Store/" target="_blank" rel="noopener noreferrer">
+                            <img src="img/store.PNG" alt="">
+                            <div class="overlay">
+                                <h3>Store web site</h3>
+                                <p>Basic functions and friendly appearance </p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <h4>And this web site.</h4>
+        </section>
+    <!-- CONTACT -->
+    <!--<section id="contact" class="contact">
+        <div class="contact-content">
+            <h2>Contact</h2>
+            <div class="row">
+                <!-- FORM ->
+                <div class="col">
+                    <form action="javascript:processForm();" id="contact-form" method="post" enctype="text/plain">
+                        <input type="text" placeholder="Your Name" id="name-contact">
+                        <input type="text" placeholder="Email" id="email-contact">
+                        <textarea name="" id="message-contact" cols="30" rows="10" placeholder="Message"></textarea>
+                        <button type="submit" onsubmit="saveMessage(); return true">Send
+                            <i class="fa-solid fa-angles-right"></i>
+                            <span class="overlay"></span>
+                        </button>
+                    </form>
+                </div>
+                <!-- MAP ->
+                <div class="col">
+                    <img src="img/map.png" alt="">
+                    <div class="info">
+                        <ul>
+                            <li>
+                                <i class="fa-solid fa-location-dot"></i>
+                                Maracaibo, Zulia, Venezuela
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-envelope"></i>
+                                Email: endryxh2@gmail.com
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>-->
+        <!-- FOOTER -->
+        <footer>
+            <a href="#start" class="up">
+                <i class="fa-solid fa-angles-up"></i>
+            </a>
+            <div class="social">
+                <a href="https://twitter.com/endryxscorpion1" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-twitter"></i></a>
+                <a href="https://www.instagram.com/endx21/" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/endryx-herrera-780928269/" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://github.com/endx21" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-github"></i></a>
+            </div>
+        </footer>
+</body>
+<script src="script.js"></script>
+</html>
