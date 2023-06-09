@@ -21,7 +21,7 @@ function select() {
     nav.classList.remove("responsive");
 }
 
-function processForm(e) {
+/*function processForm(e) {
     if (e.preventDefault) e.preventDefault();
     console.log(`${emailContact.value}${nameContact.value}${messageContact.value}`);
     return false;
@@ -31,4 +31,4 @@ if (form.attachEvent) {
     form.attachEvent("submit", processForm);
 } else {
     form.addEventListener("submit", processForm);
-}
+}*/

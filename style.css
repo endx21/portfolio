@@ -55,7 +55,7 @@ html {
 }
 
 .header-container header nav ul li a:hover {
-    color: #1e2326;
+    color: var(--text-red);
 }
 
 .responsive-nav {
@@ -488,13 +488,7 @@ html {
     transition: all .6s ease-in-out;
 }
 
-.work .work-content .gallery .proyect .overlay:hover {
-    opacity: 1;
-}
 
-.work .work-content .gallery .proyect .overlay:hover h3 {
-    margin-bottom: 0px;
-}
 
 .work h4{
     margin-top: 10px;
@@ -670,6 +664,24 @@ footer .up {
     nav.responsive ul li {
         border-bottom: 1px solid var(--text-white);
         padding: 10px 0;
+    }
+
+    .work .work-content .gallery .proyect .overlay {
+        opacity: 1;
+    }
+    
+    .work .work-content .gallery .proyect .overlay h3 {
+        margin-bottom: 0px;
+    }
+}
+
+@media screen and (min-width:981px) {
+    .work .work-content .gallery .proyect .overlay:hover {
+        opacity: 1;
+    }
+    
+    .work .work-content .gallery .proyect .overlay:hover h3 {
+        margin-bottom: 0px;
     }
 }
 
